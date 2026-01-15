@@ -55,15 +55,4 @@ sh test.sh
 
 ## Citation
 If you find this code useful for your research, please cite our paper:
-``````
-@ARTICLE{10816052,
-  author={Lei, Sen and Xiao, Xinyu and Zhang, Tianlin and Li, Heng-Chao and Shi, Zhenwei and Zhu, Qing},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Exploring Fine-Grained Image-Text Alignment for Referring Remote Sensing Image Segmentation}, 
-  year={2025},
-  volume={63},
-  number={},
-  pages={1-11},
-  doi={10.1109/TGRS.2024.3522293}}
-``````
 
