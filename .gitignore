@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyTorch / checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# Datasets
+data/
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
