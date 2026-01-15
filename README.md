@@ -33,7 +33,7 @@ and put the `pth` file in `./weights`.
 These weights are needed for training to initialize the visual encoder.
 3. Download [BERT weights from HuggingFace’s Transformer library](https://huggingface.co/google-bert/bert-base-uncased), 
 and put it in the root directory. 
-4. Download [efficient SAM], and put the `pt` file in `./weights`.
+4. Download [Efficient SAM](https://github.com/yformer/EfficientSAM), and put the `pt` file in `./weights`.
 
 ## Datasets
 We perform the experiments on two dataset including [RefSegRS](https://github.com/zhu-xlab/rrsis) and [RRSIS-D](https://github.com/Lsan2401/RMSIN). 
