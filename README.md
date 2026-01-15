@@ -1,4 +1,5 @@
 # MCD-Net
+<<<<<<< HEAD
 This repository is the offical implementation for "A Multiscale Vision-Text Collaborative Dual-Encoder for Referring RS Image Segmentation."[[IEEE TGRS](https://ieeexplore.ieee.org/document/10816052)] 
 
 ## Setting Up
