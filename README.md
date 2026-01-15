@@ -1,6 +1,5 @@
 # MCD-Net
-<<<<<<< HEAD
-This repository is the offical implementation for "A Multiscale Vision-Text Collaborative Dual-Encoder for Referring RS Image Segmentation."[[IEEE TGRS](https://ieeexplore.ieee.org/document/10816052)] 
+This repository is the offical implementation for "A Multiscale Vision-Text Collaborative Dual-Encoder for Referring RS Image Segmentation."[[IEEE TGRS](https://ieeexplore.ieee.org/document/11333348)] 
 
 ## Setting Up
 ### Preliminaries
@@ -57,3 +56,15 @@ sh test.sh
 ## Citation
 If you find this code useful for your research, please cite our paper:
 
+``````
+@ARTICLE{11333348,
+  author={Zhang, Jingwen and Li, Lingling and Jiao, Licheng and Liu, Xu and Liu, Fang and Ma, Wenping and Yang, Shuyuan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={A Multiscale Vision-Text Collaborative Dual-Encoder for Referring RS Image Segmentation}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Remote sensing;Image segmentation;Visualization;Semantics;Transformers;Feature extraction;Accuracy;Frequency modulation;Collaboration;Adaptation models;Multiscale vision-text collaborative dual-encoder;remote sensing images;referring image segmentation},
+  doi={10.1109/TGRS.2026.3651598}}
+``````
