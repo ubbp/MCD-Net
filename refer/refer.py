@@ -1,26 +1,4 @@
-"""
-This interface provides access to four datasets:
-1) refclef
-2) refcoco
-3) refcoco+
-4) refcocog
-split by unc and google
 
-The following API functions are defined:
-REFER      - REFER api class
-getRefIds  - get ref ids that satisfy given filter conditions.
-getAnnIds  - get ann ids that satisfy given filter conditions.
-getImgIds  - get image ids that satisfy given filter conditions.
-getCatIds  - get category ids that satisfy given filter conditions.
-loadRefs   - load refs with the specified ref ids.
-loadAnns   - load anns with the specified ann ids.
-loadImgs   - load images with the specified image ids.
-loadCats   - load category names with the specified category ids.
-getRefBox  - get ref's bounding box [x, y, w, h] given the ref_id
-showRef    - show image, segmentation or box of the referred object with the ref
-getMask    - get mask and area of the referred object given ref
-showMask   - show mask of the referred object given ref
-"""
 
 import sys
 import os.path as osp
