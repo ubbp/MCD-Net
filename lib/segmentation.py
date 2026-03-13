@@ -44,7 +44,7 @@ def _segm_lavt(pretrained, args):
     out_indices = (0, 1, 2, 3)
     backbone = MultiModalSwinTransformer(embed_dim=embed_dim, depths=depths, num_heads=num_heads,
                                          window_size=window_size,
-                                         num_tmem=args.num_tmem,
+                                         num_adf=args.num_adf,
                                          ape=False, drop_path_rate=0.3, patch_norm=True,
                                          out_indices=out_indices,
                                          use_checkpoint=False, num_heads_fusion=mha,
@@ -111,7 +111,7 @@ def _segm_lavt_one(pretrained, args):
     out_indices = (0, 1, 2, 3)
     backbone = MultiModalSwinTransformer(embed_dim=embed_dim, depths=depths, num_heads=num_heads,
                                          window_size=window_size,
-                                         num_tmem=args.num_tmem,
+                                         num_adf=args.num_adf,
                                          ape=False, drop_path_rate=0.3, patch_norm=True,
                                          out_indices=out_indices,
                                          use_checkpoint=False, num_heads_fusion=mha,
